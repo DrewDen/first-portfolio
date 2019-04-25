@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    padding:0;
+    width:100%;
+    margin-bottom: 15px;
+    height:100%;
+    
+    
+}
+
+
+
+header {
+    margin-right: 0%;
+   
+
+    
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+}
+
+.frontName {
+    font-family: 'Coiny', cursive;
+}
+
+
+h1, .frontName {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.main-picture {
+    width: 80%;
+    float: right;
+    width:70%;
+    margin-bottom: 45px;
+}
+
+
+main{
+    margin-top: 15px;
+    width: 100%;
+    clear:both;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.contact{
+    margin:30px;
+    width:20%;
+}
+
+.pictures {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#top_header{
+    margin-top:-90px; 
+    border-bottom: 4px solid  #00264d;
+
+}
+
+footer {
+    text-transform: uppercase;
+}
+.wrap{
+    min-height: 100vh;
+}
+
+
+/* Media Querys */
+
+@media screen and (max-width:600px) {
+    #top_header {
+        display:block;
+        margin:0;
+    }
+
+    main {
+        display:block;
+    }
+
+    .one, .two, .three {
+        display:block;
+        margin:0;
+        width:100%;
+    } 
+
+    .contact{
+        display:block;
+        width:50%;
+    }
+}
